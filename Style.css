@@ -91,6 +91,13 @@ padding-top: 5px;
     margin-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: rgba(114, 33, 87, 0.521);
+    border: solid 5px black;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    animation-name: colorestitulo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .tituloseccion2{
@@ -130,7 +137,10 @@ padding-top: 5px;
 }
 
 .rueda h2{
+    
     margin-left: 20vw;
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;
 }
 
 .piso img{
@@ -140,6 +150,8 @@ padding-top: 5px;
 
 .piso h2{
     margin-left: 60vw;
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;
 }
 
 .tabla{
