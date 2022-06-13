@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo {
+    display: flex;
+    padding-right: 30em;
+    
+}
+.logo img{
+    width: 50px;
+    
+    
+}
+.titulo {
+    background-color: rgba(114, 33, 87, 0.521);
+    border: solid 5px black;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    animation-name: colorestitulo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.grilla {
+    background: url(./Imagenes/fondogym.png);
+    background-size: 100%;
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navegador li {
+    display: inline;
+    background-color: azure;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-family: 'Overpass', sans-serif;
+    
+}
+.navegador li :hover{
+background-color: rgb(207, 27, 81);
+border-radius: 5px;
+margin: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 25px;
+padding-left: 10px;
+padding-right: 5px;
+padding-top: 5px;
+}
+.navegador a{
+    text-decoration: none;
+    
+
+}
+.fair {
+    margin-left: 60px;
+}
+.fair img{
+    max-width: 80em;
+}
+.video iframe{
+    margin-left: 5px;
+}
+.texto{
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tituloseccion2{
+    background: rgb(146,142,208);
+    background: linear-gradient(90deg, rgba(146,142,208,1) 7%, rgba(118,9,121,1) 31%, rgba(0,212,255,1) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Overpass', sans-serif;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.seccion2 img{
+    width: 30vw;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.tituloufc{
+    
+    margin-bottom: 5px;
+    margin-left: 45vw;
+}
+
+.remeras{
+    margin-left: 30vw;
+}
+
+.rueda img{
+    width: 30vw;
+    margin-left: 20vw;
+}
+
+.rueda h2{
+    margin-left: 20vw;
+}
+
+.piso img{
+    width: 30vw;
+    margin-left: 60vw;
+}
+
+.piso h2{
+    margin-left: 60vw;
+}
+
+.tabla{
+    background-color: aquamarine;
+    border: solid 5px rgb(39, 146, 132);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.titulotabla{
+    background-color: rgb(26, 90, 163);
+}
+
+.descripcion{
+    background-color: rebeccapurple;
+}
+.deportes img {
+
+    width: 30vw;
+    margin-left: 30px;
+    
+}
+
+.quienessomos h1{
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quienessomos p{
+    background-color: rgb(80, 35, 202);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.banner{
+    
+    margin-left: 5vw;
+    
+
+}
+
+.informacion {
+
+    background-color: rebeccapurple;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.redes {
+    background: rgb(146,142,208);
+background: linear-gradient(90deg, rgba(146,142,208,1) 7%, rgba(118,9,121,1) 31%, rgba(0,212,255,1) 100%);
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+    display: grid;  
+    grid-template-columns: 70px 70px 70px; 
+    grid-template-rows: 20px 20px 20px;    
+    justify-content: end
+}
+
+.redes li{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.redes i{
+    font-size: 2em;
+}
+.nav{
+    grid-area: nav;
+    background: rgb(146,142,208);
+    background: linear-gradient(90deg, rgba(146,142,208,1) 7%, rgba(118,9,121,1) 31%, rgba(0,212,255,1) 100%);
+    border: solid 5px black;
+    border-radius: 10px;
+}
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.aside{
+    grid-area: aside;
+}
+.footer{
+    grid-area: footer;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr;
+    grid-template-areas:
+    "nav nav nav "
+    " header header header"
+    " main main main"
+    " main main main"
+    " footer footer footer"
+    ;
+} 
+
+@keyframes colorestitulo{
+    0%{
+        background-color: rgba(146,142,208,1);
+    }
+    25% {
+        background-color: rgba(118,9,121,1);
+    }
+    50%{
+        background-color: rgba(0,212,255,1);
+    }
+    100%{
+        background-color: rgb(182, 10, 39);
+    }
+}
+@media (max-width: 768px) {
+    .grilla {
+        display: grid;
+        grid-template-areas:
+        "nav nav nav"
+        " header header header"
+        " main main main"
+        " main main main"
+        " footer footer footer";
+    }
+
+    .nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fair img{
+        max-width: 30em;
+    }
+    
+
+    
+    .banner img {
+        width: 91vw;
+    } 
+
+    .remeras img{
+        width: 50vw;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fair img{
+        max-width: 15em;
+    }
+    .video iframe{
+    width: 320px;
+    height: 200;
+    }
+    .grilla {
+        background-size: 200%;
+    }
+}
