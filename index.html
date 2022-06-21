@@ -1,97 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./Imagenes/MARCA PNG-04.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/916cf7c43c.js" crossorigin="anonymous"></script>
     <title>FAIR PLAY</title>
-    </head>
+</head>
+
 <body>
     <div class="grilla">
         <!-- <div class="logo">
             <img src="./Imagenes/logo.png" alt="logo">
         </div> -->
-            <nav class="nav">
+        <nav class="nav">
 
-                <ul class="navegador">
-                    <div class="logo">
-                        <a href="#">
-                            <img src="./Imagenes/logo.png" alt="logo"></a>
-                        </div>
-                    <li>
-                        <a href="./index.html">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="./Html/deportes.html">DEPORTES</a>
-                    </li>
-                    <li>
-                        <a href="./Html/indumentaria.html">INDUMENTARIA</a>
-                    </li>
-                    <li>
-                        <a href="./Html/fitness.html">FITNESS</a>
-                    </li>
-                    <li>
-                        <a href="./Html/contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="navegador">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./Imagenes/logo.png" alt="logo"></a>
+                </div>
+                <li>
+                    <a href="./index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="./Html/deportes.html">DEPORTES</a>
+                </li>
+                <li>
+                    <a href="./Html/indumentaria.html">INDUMENTARIA</a>
+                </li>
+                <li>
+                    <a href="./Html/fitness.html">FITNESS</a>
+                </li>
+                <li>
+                    <a href="./Html/contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
 
-            <header class="header">
-                <h1 class="titulo">ENTRENAMOS CON VOS</h1> 
-            </header>
-            <main class="main">
-        
-            <div class="fair">
-                <img src="./Imagenes/INST-11.png" alt="fairplay">
+        <header class="header">
+            <h1 class="titulo">ENTRENAMOS CON VOS</h1>
+        </header>
+        <main class="main">
+
+            <div id="carouselExampleIndicators" class="carousel slide w-50 m-auto" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Imagenes/INST-08.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagenes/INST-13.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagenes/INST-14.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            
-            
+
             <div class="video">
-            
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/kab772PXbYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kab772PXbYI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             
             </div>
-            
-            
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam id consectetur eveniet maxime, accusamus ipsa voluptatum esse nostrum velit itaque sint, tempora quaerat facilis sapiente similique reprehenderit! Similique, assumenda?</p>
-            
+
+
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam id consectetur
+                eveniet maxime, accusamus ipsa voluptatum esse nostrum velit itaque sint, tempora quaerat facilis
+                sapiente similique reprehenderit! Similique, assumenda?</p>
+
             <div class="tituloseccion2">
-            
+
                 <h2>Encontra lo mejor para tu entrenamiento</h2>
-            
+
             </div>
-            
-            
+
+
             <div class="seccion2">
                 <img src="./Imagenes/bandas.png" alt="bandas elasticas">
                 <img src="./Imagenes/discos.png" alt="discos">
                 <img src="./Imagenes/guantes.png" alt="guantes">
                 <img src="./Imagenes/mancuernas.png" alt="mancuernas">
             </div>
-            
-            
-            
-            </main>
-            <aside class="aside">
 
-            </aside>
-            <footer class="footer">
+
+
+        </main>
+        <aside class="aside">
+
+        </aside>
+        <footer class="footer">
             <ul class="redes">
-                <li><i class="icono fa-brands fa-facebook "></i>
+                <li><a href="#"><i class="icono fa-brands fa-facebook "></i></a>
                 </li>
-                <li><i class="icono fa-brands fa-instagram"></i>
+                <li><a href="#"><i class="icono fa-brands fa-instagram"></i></a>
                 </li>
-                <li><i class="icono fa-brands fa-twitter"></i>
-                </li>
+                <li><a href="#"><i class="icono fa-brands fa-twitter"></i>
+                </li></a>
             </ul>
-            </footer>    
-        </div>
-
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
