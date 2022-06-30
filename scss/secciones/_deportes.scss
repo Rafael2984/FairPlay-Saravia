@@ -1,0 +1,31 @@
+
+
+.deportes  {
+
+    img{
+        width: 30vw;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        &:hover{
+            transform: translateY(-15%);
+    }
+    
+}
+}
+.informacion {
+
+    background-color: $textosSecundarios;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tarjetas{
+    display: grid;
+    margin-top: 30px;
+    
+}
+.pesas{
+ display: flex;
+ flex-direction: row-reverse;
+ margin-right: 10px;
+}

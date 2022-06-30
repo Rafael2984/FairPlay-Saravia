@@ -1,0 +1,49 @@
+
+.rueda img{
+    width: 30vw;
+    margin-left: 20vw;
+}
+
+.rueda h2{
+    
+    margin-left: 20vw;
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;
+}
+
+.piso img{
+    width: 30vw;
+    margin-left: 60vw;
+}
+
+.piso h2{
+    margin-left: 60vw;
+    font-family: 'Overpass', sans-serif;
+    color: aliceblue;
+}
+.marcasfit{
+    margin: 3rem;
+    h2{
+        display: flex;
+        justify-content: center;
+        font-family: $tipografia;
+        color: white;
+        font-size: 3rem;
+        
+    }
+}
+.logosmarcas{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    img{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 8rem;
+    }
+}

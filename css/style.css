@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.descripciones h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-right: 6rem; }
+
+.video iframe {
+  margin-left: 5px;
+  margin-top: 10px; }
+
+.texto {
+  background-color: cornflowerblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(114, 33, 87, 0.521);
+  border: solid 5px black;
+  border-radius: 10px;
+  font-family: "Overpass", sans-serif;
+  animation-name: colorestitulo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.tituloseccion2 {
+  background: #928ed0;
+  background: linear-gradient(90deg, #928ed0 7%, #760979 31%, #00d4ff 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Overpass', sans-serif;
+  border: solid 5px black;
+  border-radius: 10px;
+  text-align: center; }
+
+.seccion2 img {
+  width: 30vw;
+  margin-left: 150px;
+  margin-bottom: 50px; }
+
+.descripciones {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+  .descripciones img {
+    margin-left: 10rem;
+    width: 50px; }
+  .descripciones a :hover {
+    transform: scale(1.2); }
+  .descripciones p {
+    display: flex;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+    color: white; }
+
+.deportes img {
+  width: 30vw;
+  margin-left: 30px;
+  margin-bottom: 10px; }
+  .deportes img:hover {
+    transform: translateY(-15%); }
+
+.informacion {
+  background-color: rebeccapurple;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.tarjetas {
+  display: grid;
+  margin-top: 30px; }
+
+.pesas {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px; }
+
+.remeras {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9vw; }
+  .remeras img {
+    width: 16rem; }
+
+.titulotabla {
+  background-color: rgba(114, 33, 87, 0.521);
+  border: solid 5px black;
+  border-radius: 10px;
+  font-family: 'Overpass', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  animation-name: colorestitulo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.tablatalles {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.rueda img {
+  width: 30vw;
+  margin-left: 20vw; }
+
+.rueda h2 {
+  margin-left: 20vw;
+  font-family: 'Overpass', sans-serif;
+  color: aliceblue; }
+
+.piso img {
+  width: 30vw;
+  margin-left: 60vw; }
+
+.piso h2 {
+  margin-left: 60vw;
+  font-family: 'Overpass', sans-serif;
+  color: aliceblue; }
+
+.marcasfit {
+  margin: 3rem; }
+  .marcasfit h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-size: 3rem; }
+
+.logosmarcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .logosmarcas img {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 8rem; }
+
+.formulario {
+  background-color: rgba(114, 33, 87, 0.521);
+  border: solid 5px black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  animation-name: colorestitulo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.logo {
+  display: flex;
+  padding-right: 30em; }
+
+.logo img {
+  width: 50px; }
+
+.titulo {
+  background-color: rgba(114, 33, 87, 0.521);
+  border: solid 5px black;
+  border-radius: 10px;
+  font-family: 'Overpass', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  animation-name: colorestitulo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.grilla {
+  background: url(../Imagenes/fondogym.png);
+  background-size: 100%; }
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.navegador li {
+  display: inline;
+  background-color: azure;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-family: 'Overpass', sans-serif; }
+  .navegador li:hover {
+    background-color: #cf1b51;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px; }
+  .navegador li a {
+    text-decoration: none; }
+
+.tituloufc {
+  margin-bottom: 5px;
+  margin-left: 45vw; }
+
+.remeras {
+  margin-left: 30vw; }
+
+.tabla {
+  background-color: aquamarine;
+  border: solid 5px #279284;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.titulotabla {
+  background-color: #1a5aa3; }
+
+.descripcion {
+  background-color: rebeccapurple; }
+
+.quienessomos h1 {
+  background-color: aqua;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.quienessomos p {
+  background-color: #5023ca;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Overpass', sans-serif; }
+
+.banner {
+  margin-left: 5vw; }
+
+.redes {
+  background: #928ed0;
+  background: linear-gradient(90deg, #928ed0 7%, #760979 31%, #00d4ff 100%);
+  border: solid 5px black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  grid-template-rows: 20px 20px 20px;
+  justify-content: end; }
+  .redes li {
+    margin-top: 20px;
+    margin-left: 10px; }
+    .redes li i {
+      font-size: 2em;
+      color: black; }
+      .redes li i:hover {
+        transform: translateY(-15%); }
+
+.nav {
+  grid-area: nav;
+  background: #928ed0;
+  background: linear-gradient(90deg, #928ed0 7%, #760979 31%, #00d4ff 100%);
+  border: solid 5px black;
+  border-radius: 10px; }
+
+.header {
+  grid-area: header; }
+
+.main {
+  grid-area: main; }
+
+.aside {
+  grid-area: aside; }
+
+.footer {
+  grid-area: footer; }
+
+.grilla {
+  display: grid;
+  grid-template-columns: 2.5fr 2.5fr 2.5fr;
+  grid-template-areas: "nav nav nav " " header header header" " main main main" " main main main" " footer footer footer"; }
+
+@keyframes colorestitulo {
+  0% {
+    background-color: #928ed0; }
+  25% {
+    background-color: #760979; }
+  50% {
+    background-color: #00d4ff; }
+  100% {
+    background-color: #b60a27; } }
+
+@media (max-width: 768px) {
+  .grilla {
+    display: grid;
+    grid-template-areas: "nav nav nav" " header header header" " main main main" " main main main" " footer footer footer"; }
+  .nav ul {
+    display: flex;
+    flex-wrap: wrap; }
+  .fair img {
+    max-width: 30em; }
+  .banner img {
+    width: 91vw; }
+  .remeras img {
+    width: 50vw; } }
+
+@media (max-width: 375px) {
+  .nav ul {
+    display: flex;
+    flex-wrap: wrap; }
+  .fair img {
+    max-width: 15em; }
+  .video iframe {
+    width: 320px;
+    height: 200; }
+  .grilla {
+    background-size: 200%; } }

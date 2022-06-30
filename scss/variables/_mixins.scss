@@ -1,0 +1,6 @@
+@mixin descripciones-parrafo($parrafosSecundarios){
+    display: flex;
+    justify-content: center;
+    font-family: $tipografia;
+    color:$parrafosSecundarios
+}
