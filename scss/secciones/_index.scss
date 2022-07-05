@@ -60,9 +60,46 @@
     
     p{
         @include descripciones-parrafo(white)
+        
     
     }
     h2{
         @extend %estiloTitulo;
+    }
+}
+.iconosparrafo{
+        
+        margin-left: 10px;
+        
+}
+.ropa{
+    margin-left: 20px;
+    a{
+        margin-left: 40px;
+    }
+}
+
+.fitness{
+    margin-left: 40px;
+    p {
+        margin-left: 40px;
+    }
+    h2 {
+        margin-left: 7rem;
+    }
+}
+.pelotas{
+    h2{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 375px){
+    .descripciones {
+        display: flex;
+        flex-direction: column;
+    
+        
+        
     }
 }
