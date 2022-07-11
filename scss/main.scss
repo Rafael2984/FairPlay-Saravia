@@ -46,56 +46,50 @@
     background: url(../Imagenes/fondogym.png);
     background-size: 100%;
 }
-// .nav__container{
-//     display: flex;
-//     height: 100%;
-//     width: 90%;
-//     margin: 0 auto;
-//     padding-top: 10px;
-//     justify-content: space-between;
-//     align-items: center;
-// }
 
-
-
-.nav ul {
+nav{
     display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    font-weight: bold;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
+    justify-content: space-between;
+    
+}
 
-li{
-    background-color: azure;
-    border-radius: 5px;
-    margin: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-top: 5px;
-    font-family: 'Overpass', sans-serif;
-    &:hover {
+// .nav ul {
+//     display: flex;
+//     list-style: none;
+//     font-weight: bold;
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+//     margin-left: 5px;
+//     margin-right: 5px;
+
+// li{
+//     background-color: azure;
+//     border-radius: 5px;
+//     margin: 10px;
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//     margin-left: 25px;
+//     padding-left: 10px;
+//     padding-right: 5px;
+//     padding-top: 5px;
+//     font-family: 'Overpass', sans-serif;
+//     &:hover {
         
-        background-color: rgb(207, 27, 81);
-        border-radius: 5px;
-        margin: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 25px;
-        padding-left: 10px;
-        padding-right: 5px;
-        padding-top: 5px;
-}
-a{
-    text-decoration: none;
-}
-}
-}
+//         background-color: rgb(207, 27, 81);
+//         border-radius: 5px;
+//         margin: 10px;
+//         margin-top: 10px;
+//         margin-bottom: 10px;
+//         margin-left: 25px;
+//         padding-left: 10px;
+//         padding-right: 5px;
+//         padding-top: 5px;
+// }
+// a{
+//     text-decoration: none;
+// }
+// }
+// }
 
 
 .tituloufc {
@@ -108,8 +102,34 @@ a{
     margin-left: 30vw;
 }
 
+.menu{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: nav;
+    background: rgb(146, 142, 208);
+    background: linear-gradient(90deg, rgba(146, 142, 208, 1) 7%, rgba(118, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
+    border: solid 5px black;
+    border-radius: 10px;
+    ul{
+        margin-left: 5rem;
+        
+    }
+    ul{ 
 
-
+    a:hover{
+        
+        background-color: purple;
+        border-radius: 60px;
+    }
+    
+}
+}
+.logo{
+    height: 50px;
+}
 .redes {
     background: rgb(146, 142, 208);
     background: linear-gradient(90deg, rgba(146, 142, 208, 1) 7%, rgba(118, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
@@ -143,13 +163,13 @@ a{
 
 
 
-.nav {
-    grid-area: nav;
-    background: rgb(146, 142, 208);
-    background: linear-gradient(90deg, rgba(146, 142, 208, 1) 7%, rgba(118, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
-    border: solid 5px black;
-    border-radius: 10px;
-}
+// .nav {
+//     grid-area: nav;
+//     background: rgb(146, 142, 208);
+//     background: linear-gradient(90deg, rgba(146, 142, 208, 1) 7%, rgba(118, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
+//     border: solid 5px black;
+//     border-radius: 10px;
+// }
 
 .header {
     grid-area: header;
@@ -207,11 +227,25 @@ a{
             " main main main"
             " footer footer footer";
     }
+    .menu{
+        ul{
+            margin-right: 40px;
+            padding-right: 23rem;
+        }
+        li {
+            margin-top: 5px;
+        }
+        a{
+            margin-left: 40px;
+        }
+    }
     
-    
-    .nav ul {
+    .descripciones {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+    
+        
+        
     }
 
     .fair img {
@@ -227,22 +261,61 @@ a{
     .remeras img {
         width: 50vw;
     }
+    
+    .pelotas {
+        a {margin-left: 11rem;
+        }
+    }
 
+    .fitness {
+        a{
+            margin-left: 8.8rem;
+        }
+        h2{
+            margin-left: 30px;
+        }
+        p {
+            margin-right: 40px;
+        }
+    }
+    .ropa{
+        a{
+            margin-left: 10rem;
+        }
+        h2{
+            margin-left: 60px;
+        }
+        p{ 
+            margin-left: 22px;
+        }
+    }
+    .seccion2{
+        margin-left: 40px;
+    }
 
 }
 
 
 @media (max-width: 375px) {
-    .nav ul{
-        
+
+    .navbar-brand{
+    display: none;
+    }
+    .menu{
         flex-direction: column;
-        li{
-            margin-right: 50rem;
-        }
-        }
         
+    li{
+        margin-top: 5px;
+    }
+    a{
+        margin-left: 50px;
+    }
     }
 
+.logo{
+    height: 30px;
+    
+}
     
     
     .fair img {
@@ -257,5 +330,28 @@ a{
     .grilla {
         background-size: 200%;
     }
-  
+    .form-register{
+    
+        width: 300px;
+    }
 
+    .fitness{
+        margin-right: 4rem;
+     a{
+        margin-left: -32px;
+     }
+    }
+    
+    .ropa{
+        a{
+            margin-left: -17px;
+        }
+        h2{
+            margin-right: 20px;
+        }
+    }
+    
+    .logosmarcas{
+        flex-direction: column;
+    }
+}
