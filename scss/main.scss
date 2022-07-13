@@ -53,44 +53,6 @@ nav{
     
 }
 
-// .nav ul {
-//     display: flex;
-//     list-style: none;
-//     font-weight: bold;
-//     padding-top: 30px;
-//     padding-bottom: 30px;
-//     margin-left: 5px;
-//     margin-right: 5px;
-
-// li{
-//     background-color: azure;
-//     border-radius: 5px;
-//     margin: 10px;
-//     margin-top: 10px;
-//     margin-bottom: 10px;
-//     margin-left: 25px;
-//     padding-left: 10px;
-//     padding-right: 5px;
-//     padding-top: 5px;
-//     font-family: 'Overpass', sans-serif;
-//     &:hover {
-        
-//         background-color: rgb(207, 27, 81);
-//         border-radius: 5px;
-//         margin: 10px;
-//         margin-top: 10px;
-//         margin-bottom: 10px;
-//         margin-left: 25px;
-//         padding-left: 10px;
-//         padding-right: 5px;
-//         padding-top: 5px;
-// }
-// a{
-//     text-decoration: none;
-// }
-// }
-// }
-
 
 .tituloufc {
 
@@ -113,10 +75,7 @@ nav{
     background: linear-gradient(90deg, rgba(146, 142, 208, 1) 7%, rgba(118, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
     border: solid 5px black;
     border-radius: 10px;
-    ul{
-        margin-left: 5rem;
-        
-    }
+
     ul{ 
 
     a:hover{
@@ -127,6 +86,7 @@ nav{
     
 }
 }
+
 .logo{
     height: 50px;
 }
@@ -151,7 +111,7 @@ nav{
 
         i {
             font-size: 2em;
-            color: black;
+            color: white;
 
             &:hover {
                 transform: translateY(-15%);
@@ -160,16 +120,6 @@ nav{
     }
 
 }
-
-
-
-// .nav {
-//     grid-area: nav;
-//     background: rgb(146, 142, 208);
-//     background: linear-gradient(90deg, rgba(146, 142, 208, 1) 7%, rgba(118, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
-//     border: solid 5px black;
-//     border-radius: 10px;
-// }
 
 .header {
     grid-area: header;
@@ -214,6 +164,17 @@ nav{
 
     100% {
         background-color: rgb(182, 10, 39);
+    }
+}
+
+@media (max-width: 1200px){
+    
+    .menu {
+        .navbar {
+            img {
+                margin-right: -20rem;
+            }
+        }
     }
 }
 
@@ -295,20 +256,73 @@ nav{
 
 }
 
+@media (max-width: 480px) {
+    
+    .navbar-brand{
+        display: none;
+        }
+
+    #navbarNav{
+        width: 50px;
+    }
+    .menu{
+        flex-direction: column;
+        ul{
+            padding-right: 1rem;
+        }
+    li{
+        margin-top: 5px;
+        padding-right: 30px;
+    }
+    a{
+        margin-left: 50px;
+        
+    }
+    }
+
+    .pelotas {
+        a{
+            margin-left: 30px;
+        }
+    }
+    .fitness {
+        a {
+            margin-left: -1px;
+        }
+    }
+    .ropa{
+        a{
+            margin-left: 20px;
+        }
+    }
+}
+
 
 @media (max-width: 375px) {
 
     .navbar-brand{
     display: none;
     }
+    #navbarNav{
+        width: 50px;
+        a{
+            padding-right: 5rem;
+        }
+        
+    }
+
     .menu{
         flex-direction: column;
-        
+        ul{
+            padding-right: 5rem;
+        }
     li{
         margin-top: 5px;
+        padding-right: 30px;
     }
     a{
         margin-left: 50px;
+        
     }
     }
 
@@ -334,24 +348,42 @@ nav{
     
         width: 300px;
     }
-
+    .pelotas{
+        a{
+            margin-left: -1rem;
+        }
+    }
     .fitness{
         margin-right: 4rem;
      a{
-        margin-left: -32px;
+        margin-left: -50px;
+     }
+     h2{
+        margin-left: 90px;
+     }
+     p{
+        margin-left: 70px;
      }
     }
     
     .ropa{
         a{
-            margin-left: -17px;
+            margin-left: -28px;
         }
         h2{
-            margin-right: 20px;
+            margin-right: 80px;
         }
     }
     
     .logosmarcas{
         flex-direction: column;
+    }
+}
+
+@media (max-width:320px) {
+    .menu{
+        a {
+            margin-left: 5px;
+        }
     }
 }

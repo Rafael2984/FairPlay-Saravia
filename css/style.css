@@ -9,9 +9,8 @@
   color: white;
   margin-right: 6rem; }
 
-.video iframe {
-  margin-left: 5px;
-  margin-top: 10px; }
+.video {
+  margin-left: 10px; }
 
 .texto {
   background-color: cornflowerblue;
@@ -36,7 +35,7 @@
   margin-bottom: 10px;
   margin-left: 5px;
   margin-right: 5px;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
   font-family: 'Overpass', sans-serif;
   border: solid 5px black;
@@ -276,6 +275,11 @@
   margin: 16px 0;
   font-size: 16px; }
 
+@media (max-width: 1200px) {
+  .banner img {
+    width: 70rem;
+    margin-left: -20px; } }
+
 @media (max-width: 768px) {
   .banner {
     width: 2rem; } }
@@ -329,8 +333,6 @@ nav {
   background: linear-gradient(90deg, #928ed0 7%, #760979 31%, #00d4ff 100%);
   border: solid 5px black;
   border-radius: 10px; }
-  .menu ul {
-    margin-left: 5rem; }
   .menu ul a:hover {
     background-color: purple;
     border-radius: 60px; }
@@ -357,7 +359,7 @@ nav {
     margin-left: 10px; }
     .redes li i {
       font-size: 2em;
-      color: black; }
+      color: white; }
       .redes li i:hover {
         transform: translateY(-15%); }
 
@@ -387,6 +389,10 @@ nav {
     background-color: #00d4ff; }
   100% {
     background-color: #b60a27; } }
+
+@media (max-width: 1200px) {
+  .menu .navbar img {
+    margin-right: -20rem; } }
 
 @media (max-width: 768px) {
   .grilla {
@@ -425,13 +431,41 @@ nav {
   .seccion2 {
     margin-left: 40px; } }
 
+@media (max-width: 480px) {
+  .navbar-brand {
+    display: none; }
+  #navbarNav {
+    width: 50px; }
+  .menu {
+    flex-direction: column; }
+    .menu ul {
+      padding-right: 1rem; }
+    .menu li {
+      margin-top: 5px;
+      padding-right: 30px; }
+    .menu a {
+      margin-left: 50px; }
+  .pelotas a {
+    margin-left: 30px; }
+  .fitness a {
+    margin-left: -1px; }
+  .ropa a {
+    margin-left: 20px; } }
+
 @media (max-width: 375px) {
   .navbar-brand {
     display: none; }
+  #navbarNav {
+    width: 50px; }
+    #navbarNav a {
+      padding-right: 5rem; }
   .menu {
     flex-direction: column; }
+    .menu ul {
+      padding-right: 5rem; }
     .menu li {
-      margin-top: 5px; }
+      margin-top: 5px;
+      padding-right: 30px; }
     .menu a {
       margin-left: 50px; }
   .logo {
@@ -445,13 +479,23 @@ nav {
     background-size: 200%; }
   .form-register {
     width: 300px; }
+  .pelotas a {
+    margin-left: -1rem; }
   .fitness {
     margin-right: 4rem; }
     .fitness a {
-      margin-left: -32px; }
+      margin-left: -50px; }
+    .fitness h2 {
+      margin-left: 90px; }
+    .fitness p {
+      margin-left: 70px; }
   .ropa a {
-    margin-left: -17px; }
+    margin-left: -28px; }
   .ropa h2 {
-    margin-right: 20px; }
+    margin-right: 80px; }
   .logosmarcas {
     flex-direction: column; } }
+
+@media (max-width: 320px) {
+  .menu a {
+    margin-left: 5px; } }
