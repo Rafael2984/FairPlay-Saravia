@@ -450,7 +450,9 @@ nav {
   .fitness a {
     margin-left: -1px; }
   .ropa a {
-    margin-left: 20px; } }
+    margin-left: 20px; }
+  .logosmarcas {
+    flex-direction: column; } }
 
 @media (max-width: 375px) {
   .navbar-brand {
