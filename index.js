@@ -57,9 +57,32 @@ let precioProducto = mostrarPrecio(productoNombre);
 console.log(precioProducto);
 cobrar(productoNombre,precioProducto);
 
-const deporte = ["basquet", "camisetas", "zapatillas", "pelotas", "medias", "coderas", "rodilleras"];
+const deporte = [
+    { 
+    pelota:"basquet",
+    prenda: "camisetas",
+    calzado: "zapatillas",
+    marca: "adidas"
+},
+{
+    pelota:"futbol",
+    prenda:"Musculosa",
+    calzado: "Botines",
+    marca: "Nike"
+},
+{
+    pelota:"Voley",
+    prenda:"Pantalon",
+    calzado: "zapatillas",
+    marca: "Puma"
+}
+];
 
-deporte.shift()
-console.log(deporte)
-deporte.reverse()
-console.log(deporte)
+const disciplinas = document.getElementById("disciplinas");
+for (prenda of insumos ) {
+    const articulos = document.createElement("li");
+    articulos.innerHTML = `<h2>${prenda.pelota}</h2>`;
+
+    disciplinas.append(articulos);
+}
+
