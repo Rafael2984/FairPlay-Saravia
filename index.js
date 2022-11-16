@@ -1,93 +1,81 @@
-// function registrarNombre() {
-//     alert("Fair Play insumos deportivos")
-//     let nombre = prompt("Ingrese su nombre ");
-//     while(nombre === ""){
-//         nombre = prompt("Ingrese su nombre ");
-//     }
-// }
+function registrarNombre() {
+    alert("Fair Play insumos deportivos")
+    let nombre = prompt("Ingrese su nombre ");
+    while(nombre === ""){
+        nombre = prompt("Ingrese su nombre ");
+    }
+}
 
 
 
-// function nuestrosProductos(){
-//     let producto;
-//     do {
-//  producto = parseInt(prompt("Que producto llevara? : \n1)Mancuernas\n2)Discos\n3)Zapatillas"))} while(producto!=1 && producto!=2 && producto!=3)
-//     switch(producto){
-//         case 1:
-//             return "Mancuernas";
-//         case 2:
-//             return "Discos";
-//         case 3:
-//             return "Zapatillas"
-//     }
-// }
+function nuestrosProductos(){
+    let producto;
+    do {
+ producto = parseInt(prompt("Que producto llevara? : \n1)Mancuernas\n2)Discos\n3)Zapatillas"))} while(producto!=1 && producto!=2 && producto!=3)
+    switch(producto){
+        case 1:
+            return "Mancuernas";
+        case 2:
+            return "Discos";
+        case 3:
+            return "Zapatillas"
+    }
+}
 
-// function mostrarPrecio(producto){
-//     if(producto==="Mancuernas"){
-//         return 3000;
-//     }
-//     else if (producto==="Discos"){
-//         return 2500;
-//     }
-//     else if (producto==="Zapatillas") {
-//         return 15000;
-//     }
+function mostrarPrecio(producto){
+    if(producto==="Mancuernas"){
+        return 3000;
+    }
+    else if (producto==="Discos"){
+        return 2500;
+    }
+    else if (producto==="Zapatillas") {
+        return 15000;
+    }
     
-// }
+}
 
-// function cobrar(nombre,precio){
-//     alert("Usted lleva el siguiente producto " +nombre+"\nPrecio:$"+precio)
-//     let pago = parseInt(prompt("Con cuanto pagas?"))
-//     if(pago> precio){
-//         alert("Gracias por comprar en Fair Play  Su vuelt es 😎" + (pago - precio))
+function cobrar(nombre,precio){
+    alert("Usted lleva el siguiente producto " +nombre+"\nPrecio:$"+precio)
+    let pago = parseInt(prompt("Con cuanto pagas?"))
+    if(pago> precio){
+        alert("Gracias por comprar en Fair Play  Su vuelt es 😎" + (pago - precio))
         
-//     }
-//     else if(pago === precio){
-//         alert("Gracias por su comprar en Fair Play 🦾 ")
-//     }
-//     else{
-//         alert("El monto es insuficiente ")
-//     }
-// }
+    }
+    else if(pago === precio){
+        alert("Gracias por su comprar en Fair Play 🦾 ")
+    }
+    else{
+        alert("El monto es insuficiente ")
+    }
+}
 
 
 
-// registrarNombre();
-// let productoNombre = nuestrosProductos();
-// let precioProducto = mostrarPrecio(productoNombre);
+registrarNombre();
+let productoNombre = nuestrosProductos();
+let precioProducto = mostrarPrecio(productoNombre);
 
-// console.log(precioProducto);
-// cobrar(productoNombre,precioProducto);
+console.log(precioProducto);
+cobrar(productoNombre,precioProducto);
 
-// const deporte = [
-//     { 
-//     pelota:"basquet",
-//     prenda: "camisetas",
-//     calzado: "zapatillas",
-//     marca: "adidas"
-// },
-// {
-//     pelota:"futbol",
-//     prenda:"Musculosa",
-//     calzado: "Botines",
-//     marca: "Nike"
-// },
-// {
-//     pelota:"Voley",
-//     prenda:"Pantalon",
-//     calzado: "zapatillas",
-//     marca: "Puma"
-// }
-// ];
-
-// const disciplinas = document.getElementById("disciplinas");
-// for (deporte of disciplinas ) {
-//     const articulos = document.createElement("li");
-//     articulos.innerHTML = `<h2>${prenda.pelota}</h2>`;
-
-//     disciplinas.append(articulos);
-// }
- 
-const info = document.querySelector("#info");
-info.addEventListener("Mas informacion", ()=> alert("Fair Play es un marca de insumos deporivos"));
-
+const deporte = [
+    { 
+    pelota:"basquet",
+    prenda: "camisetas",
+    calzado: "zapatillas",
+    marca: "adidas"
+},
+{
+    pelota:"futbol",
+    prenda:"Musculosa",
+    calzado: "Botines",
+    marca: "Nike"
+},
+{
+    pelota:"Voley",
+    prenda:"Pantalon",
+    calzado: "zapatillas",
+    marca: "Puma"
+}
+];
